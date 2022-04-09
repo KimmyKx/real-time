@@ -1,4 +1,4 @@
-const Event = require('../../Structures/event');
+const Event = require('../../Structures/Event');
 const sessions = require('../../Utils/session');
 const event = new Event('connection', (socket, io) => {
 	socket.on('pos', (data) => {
